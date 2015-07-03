@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1B9BD81B45AE4700E232FA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1B9BD71B45AE4700E232FA /* libz.dylib */; };
 		7E20D8851B45107400A3262A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20D8841B45107400A3262A /* AppDelegate.swift */; };
 		7E20D8871B45107400A3262A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20D8861B45107400A3262A /* ViewController.swift */; };
 		7E20D88A1B45107500A3262A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E20D8881B45107400A3262A /* Main.storyboard */; };
 		7E20D88C1B45107500A3262A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E20D88B1B45107500A3262A /* Assets.xcassets */; };
 		7E20D88F1B45107500A3262A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E20D88D1B45107500A3262A /* LaunchScreen.storyboard */; };
+		7E20D8B11B4510DF00A3262A /* WordContents.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7E20D89A1B4510DF00A3262A /* WordContents.zip */; };
+		7E20D8B21B4510DF00A3262A /* document.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7E20D89B1B4510DF00A3262A /* document.xml */; };
+		7E20D8B31B4510DF00A3262A /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E20D89C1B4510DF00A3262A /* download.jpeg */; };
+		7E20D8B41B4510DF00A3262A /* download1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E20D89D1B4510DF00A3262A /* download1.jpeg */; };
+		7E20D8B51B4510DF00A3262A /* download2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E20D89E1B4510DF00A3262A /* download2.jpeg */; };
+		7E20D8B61B4510DF00A3262A /* image.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7E20D89F1B4510DF00A3262A /* image.xml */; };
+		7E20D8B71B4510DF00A3262A /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E20D8A21B4510DF00A3262A /* SSZipArchive.m */; };
+		7E20D8B81B4510DF00A3262A /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E20D8A51B4510DF00A3262A /* ioapi.c */; };
+		7E20D8B91B4510DF00A3262A /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E20D8A71B4510DF00A3262A /* mztools.c */; };
+		7E20D8BA1B4510DF00A3262A /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E20D8A91B4510DF00A3262A /* unzip.c */; };
+		7E20D8BB1B4510DF00A3262A /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E20D8AB1B4510DF00A3262A /* zip.c */; };
+		7E20D8BF1B45120900A3262A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20D8BE1B45120900A3262A /* Utilities.swift */; };
+		7E20D8C11B45122200A3262A /* WordDocumentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20D8C01B45122200A3262A /* WordDocumentGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E1B9BD71B45AE4700E232FA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7E20D8811B45107400A3262A /* WordDocGenerator-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WordDocGenerator-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E20D8841B45107400A3262A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E20D8861B45107400A3262A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,26 @@
 		7E20D88B1B45107500A3262A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E20D88E1B45107500A3262A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E20D8901B45107500A3262A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E20D89A1B4510DF00A3262A /* WordContents.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = WordContents.zip; sourceTree = "<group>"; };
+		7E20D89B1B4510DF00A3262A /* document.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = document.xml; sourceTree = "<group>"; };
+		7E20D89C1B4510DF00A3262A /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		7E20D89D1B4510DF00A3262A /* download1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download1.jpeg; sourceTree = "<group>"; };
+		7E20D89E1B4510DF00A3262A /* download2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download2.jpeg; sourceTree = "<group>"; };
+		7E20D89F1B4510DF00A3262A /* image.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = image.xml; sourceTree = "<group>"; };
+		7E20D8A11B4510DF00A3262A /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		7E20D8A21B4510DF00A3262A /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		7E20D8A41B4510DF00A3262A /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		7E20D8A51B4510DF00A3262A /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		7E20D8A61B4510DF00A3262A /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		7E20D8A71B4510DF00A3262A /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		7E20D8A81B4510DF00A3262A /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		7E20D8A91B4510DF00A3262A /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		7E20D8AA1B4510DF00A3262A /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		7E20D8AB1B4510DF00A3262A /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		7E20D8AC1B4510DF00A3262A /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		7E20D8BE1B45120900A3262A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		7E20D8C01B45122200A3262A /* WordDocumentGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordDocumentGenerator.swift; sourceTree = "<group>"; };
+		7E20D8CA1B45371B00A3262A /* SSZipArchive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1B9BD81B45AE4700E232FA /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +74,7 @@
 		7E20D8781B45107400A3262A = {
 			isa = PBXGroup;
 			children = (
+				7E1B9BD71B45AE4700E232FA /* libz.dylib */,
 				7E20D8831B45107400A3262A /* WordDocGenerator-Swift */,
 				7E20D8821B45107400A3262A /* Products */,
 			);
@@ -54,6 +91,7 @@
 		7E20D8831B45107400A3262A /* WordDocGenerator-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				7E20D8981B4510DF00A3262A /* WordDocGenerator */,
 				7E20D8841B45107400A3262A /* AppDelegate.swift */,
 				7E20D8861B45107400A3262A /* ViewController.swift */,
 				7E20D8881B45107400A3262A /* Main.storyboard */,
@@ -62,6 +100,57 @@
 				7E20D8901B45107500A3262A /* Info.plist */,
 			);
 			path = "WordDocGenerator-Swift";
+			sourceTree = "<group>";
+		};
+		7E20D8981B4510DF00A3262A /* WordDocGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				7E20D8991B4510DF00A3262A /* Resources */,
+				7E20D8A01B4510DF00A3262A /* SSZipArchive */,
+				7E20D8BE1B45120900A3262A /* Utilities.swift */,
+				7E20D8C01B45122200A3262A /* WordDocumentGenerator.swift */,
+			);
+			path = WordDocGenerator;
+			sourceTree = "<group>";
+		};
+		7E20D8991B4510DF00A3262A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E20D89A1B4510DF00A3262A /* WordContents.zip */,
+				7E20D89B1B4510DF00A3262A /* document.xml */,
+				7E20D89C1B4510DF00A3262A /* download.jpeg */,
+				7E20D89D1B4510DF00A3262A /* download1.jpeg */,
+				7E20D89E1B4510DF00A3262A /* download2.jpeg */,
+				7E20D89F1B4510DF00A3262A /* image.xml */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E20D8A01B4510DF00A3262A /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				7E20D8A11B4510DF00A3262A /* SSZipArchive.h */,
+				7E20D8A21B4510DF00A3262A /* SSZipArchive.m */,
+				7E20D8A31B4510DF00A3262A /* minizip */,
+				7E20D8CA1B45371B00A3262A /* SSZipArchive-Bridging-Header.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		7E20D8A31B4510DF00A3262A /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				7E20D8A41B4510DF00A3262A /* crypt.h */,
+				7E20D8A51B4510DF00A3262A /* ioapi.c */,
+				7E20D8A61B4510DF00A3262A /* ioapi.h */,
+				7E20D8A71B4510DF00A3262A /* mztools.c */,
+				7E20D8A81B4510DF00A3262A /* mztools.h */,
+				7E20D8A91B4510DF00A3262A /* unzip.c */,
+				7E20D8AA1B4510DF00A3262A /* unzip.h */,
+				7E20D8AB1B4510DF00A3262A /* zip.c */,
+				7E20D8AC1B4510DF00A3262A /* zip.h */,
+			);
+			path = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +210,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E20D8B21B4510DF00A3262A /* document.xml in Resources */,
+				7E20D8B41B4510DF00A3262A /* download1.jpeg in Resources */,
 				7E20D88F1B45107500A3262A /* LaunchScreen.storyboard in Resources */,
 				7E20D88C1B45107500A3262A /* Assets.xcassets in Resources */,
+				7E20D8B51B4510DF00A3262A /* download2.jpeg in Resources */,
 				7E20D88A1B45107500A3262A /* Main.storyboard in Resources */,
+				7E20D8B11B4510DF00A3262A /* WordContents.zip in Resources */,
+				7E20D8B31B4510DF00A3262A /* download.jpeg in Resources */,
+				7E20D8B61B4510DF00A3262A /* image.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E20D8BA1B4510DF00A3262A /* unzip.c in Sources */,
 				7E20D8871B45107400A3262A /* ViewController.swift in Sources */,
+				7E20D8C11B45122200A3262A /* WordDocumentGenerator.swift in Sources */,
 				7E20D8851B45107400A3262A /* AppDelegate.swift in Sources */,
+				7E20D8B81B4510DF00A3262A /* ioapi.c in Sources */,
+				7E20D8BB1B4510DF00A3262A /* zip.c in Sources */,
+				7E20D8B71B4510DF00A3262A /* SSZipArchive.m in Sources */,
+				7E20D8BF1B45120900A3262A /* Utilities.swift in Sources */,
+				7E20D8B91B4510DF00A3262A /* mztools.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +349,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "WordDocGenerator-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Demo.WordDocGenerator-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/WordDocGenerator-Swift/WordDocGenerator/SSZipArchive/SSZipArchive-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -258,9 +362,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "WordDocGenerator-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Demo.WordDocGenerator-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/WordDocGenerator-Swift/WordDocGenerator/SSZipArchive/SSZipArchive-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -283,6 +389,7 @@
 				7E20D8951B45107500A3262A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

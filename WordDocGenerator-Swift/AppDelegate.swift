@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  WordDocGenerator-Swift
 //
-//  Created by synerzip on 02/07/15.
+//  Created by AmitB on 02/07/15.
 //  Copyright © 2015 Company_Name. All rights reserved.
 //
 
